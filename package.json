@@ -1,0 +1,25 @@
+{
+  "name": "gamelist",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliterobert/KasinoFamiljenApp.git"
+  },
+  "author": "Robert Eriksson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliterobert/KasinoFamiljenApp/issues"
+  },
+  "homepage": "https://github.com/eliterobert/KasinoFamiljenApp#readme",
+  "description": "",
+  "dependencies": {
+    "airtable": "^0.11.1",
+    "express": "^4.17.2",
+    "http": "^0.0.1-security"
+  }
+}
