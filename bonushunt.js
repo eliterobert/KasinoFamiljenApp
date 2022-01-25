@@ -71,12 +71,12 @@ const updateGameBonusHunt = (namn, spel, insats) => {
   });
 }
 
-function addItem(){
+function addItem(spel, insats){
     var ul = document.getElementById("dynamic-list");
     var candidate = document.getElementById("candidate");
     var li = document.createElement("li");
     li.setAttribute('id',candidate.value);
-    li.appendChild(document.createTextNode(candidate.value));
+    li.appendChild(document.createTextNode("Spel: " + spel + "Insats: "+ insats));
     ul.appendChild(li);
 }
 
